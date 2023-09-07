@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume-home.component.css']
 })
 export class ResumeHomeComponent {
+  name: string = 'Kait Masden'; 
+  
 }

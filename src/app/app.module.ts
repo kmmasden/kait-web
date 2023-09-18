@@ -1,22 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { MenuComponent } from './menu/menu.component';
-import { BackgroundComponent } from './background/background.component';
+import { TopComponent } from './top/top.component';
+import { TitleComponent } from './top/title/title.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SkillsComponent } from './skills/skills.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent,
-    MenuComponent,
-    BackgroundComponent
+    TopComponent,
+    TitleComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    AboutComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

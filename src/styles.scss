@@ -1,0 +1,29 @@
+@import 'pattern.css/pattern.scss';
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Noto+Sans+KR&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html, body, ul, ol, li, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-indent: 45px;
+  
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  color:red;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  word-spacing: 4px;
+  scrollbar-width: thin;
+}
+

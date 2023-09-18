@@ -1,0 +1,36 @@
+$light: #F0F0F0;
+$primary: #5695a6;
+$secondary: #E5D283;
+$green: #56cc85;
+$darkest: #101242;
+
+
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: $darkest;
+    color: $light;
+}
+
+.container {
+    margin:25px;
+    width: 60vw;
+}
+
+h1 {
+    font-size:100px;
+    color:#56cc85;
+}
+.hobby {
+    font-size: 22px;
+    font-weight: 600;
+    span {
+        background-color: $green; 
+        padding:5px;
+        color: $darkest;
+        font-weight: 800;
+    }
+}

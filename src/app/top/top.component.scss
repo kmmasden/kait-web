@@ -1,0 +1,90 @@
+
+$light: #F0F0F0;
+$primary: #5695a6;
+$secondary: #E5D283;
+$green: #56cc85;
+$gLight: #7eed90;
+$darkest: #101242;
+
+
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    background-color: $darkest;
+    color: #566fa65b;
+    
+    .box {
+        background: $darkest;
+        padding: 50px 150px 50px 150px;
+        border: 15px #56cc85 solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .my-name {
+            background-color: #56cc85;
+            color:$darkest;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 60px;
+            font-weight: 700;
+            font-style:bold;
+            z-index: 1;
+        }
+
+        .my-name:hover {
+            background-color: $gLight;
+            transform: scale(1.1);
+        }
+        
+        .job {
+            margin-top:25px;
+            padding: 2px;
+            color: $green;
+            font-size: 25px;
+            z-index: 1;
+        
+        }
+
+        .job:hover {
+            color: $gLight;
+            transform: scale(1.1);
+        }
+
+    }
+
+    .box:hover {
+        border: 15px #7eed90 solid;
+    }
+    
+    
+    .socials {
+        display: flex;
+        flex-direction: row;
+        padding-top:20px;
+        justify-content: space-evenly;
+        width: 400px;
+        background: $darkest;
+    }
+
+}
+
+img.gh:hover {
+    content: url("https://icongr.am/fontawesome/github.svg?size=24&color=7eed90");
+    transform: scale(1.1);
+}
+img.lin:hover {
+    content: url("https://icongr.am/fontawesome/linkedin.svg?size=24&color=7eed90");
+    transform: scale(1.1);
+}
+img.ig:hover {
+    content: url("https://icongr.am/fontawesome/instagram.svg?size=24&color=7eed90");
+    transform: scale(1.1);
+}
+
+
+

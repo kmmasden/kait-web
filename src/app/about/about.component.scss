@@ -1,8 +1,8 @@
 $light: #F0F0F0;
 $primary: #5695a6;
 $secondary: #E5D283;
-$green: #56cc85;
-$darkest: #101242;
+$green: #c7787c;
+$darkest: #0c1c33;
 
 
 :host {
@@ -19,19 +19,31 @@ $darkest: #101242;
 .container {
     margin:25px;
     width: 60vw;
+    h1 {
+        font-size:100px;
+        color:#c7787c;
+        margin-top:50px;
+    }
+
 }
 
-h1 {
-    font-size:100px;
-    color:#56cc85;
+p {
+    background-color: #0c1c3350;
+    padding: 5px 20px;
 }
 .hobby {
     font-size: 22px;
     font-weight: 600;
     span {
+        text-align: center;
         background-color: $green; 
         padding:5px;
         color: $darkest;
         font-weight: 800;
     }
+}
+
+.footer {
+    width: 100vw;
+    height: 50px;
 }

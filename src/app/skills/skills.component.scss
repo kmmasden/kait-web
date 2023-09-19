@@ -1,8 +1,8 @@
-$light: #F0F0F0;
+$light: #f4f6f5;
 $primary: #5695a6;
-$secondary: #E5D283;
+$secondary: #fecbc2;
 $green: #56cc85;
-$darkest: #101242;
+$darkest: #0c1c33;
 
 
 .container {
@@ -14,6 +14,7 @@ $darkest: #101242;
     color: $darkest;
     border-top: 80px solid $darkest;
     padding-bottom:40px;
+    
 
     .content {
       max-width: 35%;
@@ -72,7 +73,7 @@ $darkest: #101242;
     span {
       height: 20px;
       float: left;
-      background-color: $green;
+      background-color: #c7787c;
     }
   }
   
@@ -174,7 +175,7 @@ $darkest: #101242;
   flex-wrap: wrap;
   color:$darkest;
   justify-content: center;
-  background-color: #b5a267;
+  background-color: #f4f6f5;
 }
 
 
@@ -188,8 +189,8 @@ $darkest: #101242;
   padding: 10px;
 
   h1 {
-    color:#b5a267;
-    background: $darkest;
+    color:#f4f6f5;
+    background: #0c1c33;
     padding: 10px 20px 10px 20px;
     text-align:center;
     font-size: 36px;
@@ -206,8 +207,8 @@ $darkest: #101242;
   justify-content: center;
   align-items: center;
   h1 {
-    color:#b5a267;
-    background: $darkest;
+    color:#f4f6f5;
+    background: #0c1c33;
     padding: 10px 20px 10px 20px;
     text-align:center;
     font-size: 32px;
